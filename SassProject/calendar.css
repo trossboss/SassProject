@@ -1,0 +1,16 @@
+.calendar {
+  width: 300px;
+  border: 1px solid #dadfea;
+  padding: 15px; }
+  .calendar .title {
+    font-size: 18px; }
+  .calendar .weekdays {
+    display: flex;
+    width: 100%;
+    justify-content: space-between; }
+  .calendar .weekrow {
+    display: flex;
+    width: 100%;
+    justify-content: space-between; }
+
+/*# sourceMappingURL=calendar.css.map */

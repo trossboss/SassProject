@@ -1,0 +1,10 @@
+$big-gray: #CCCCCC;
+
+.container{
+  width: 100%;
+  background-color: $big-gray;
+
+  .title{
+    font-size: 36px;
+  }
+}

@@ -1,0 +1,29 @@
+$primary-red: #EF3244;
+$secondary-blue: #54BEB3;
+$white: #FFFFFF;
+$base-font-size: 12px;
+$header-font-size: 25px;
+$base-padding: 15px;
+$font-fam:'Open Sans', sans-serif;
+
+html{
+  height: 100%;
+}
+body{
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  font-family: $font-fam;
+}
+a{
+  text-decoration: none;
+  &:hover{
+    text-decoration: none;
+  }
+  &:focus{
+    text-decoration: none;
+  }
+}
+
+@import 'calendar';

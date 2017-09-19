@@ -1,0 +1,39 @@
+// LESS FILE
+
+@import "vars";
+
+.my-button(@size: 11px, @thecolor: #999999, @backg-color: #333333){
+  display: block;
+  padding: 7px 15px;
+  color: @thecolor;
+  background-color: @backg-color;
+  border-radius: 3px;
+  text-decoration: none;
+  font-size: @size;
+  text-align: center;
+}
+.warning-btn{
+  color: brown;
+}
+
+a{
+  .my-button;
+  .warning-btn;
+  font-size: 13px;
+}
+
+.container{
+  width: 100%;
+  height: 20px;
+
+  .navigation{
+    color: #CCCCCC;
+
+    a{
+      color: #999999;
+    }
+    p{
+
+    }
+  }
+}

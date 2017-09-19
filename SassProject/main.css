@@ -1,0 +1,40 @@
+html {
+  height: 100%; }
+
+body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  font-family: "Open Sans", sans-serif; }
+
+a {
+  text-decoration: none; }
+  a:hover {
+    text-decoration: none; }
+  a:focus {
+    text-decoration: none; }
+
+.calendar {
+  width: 300px;
+  border: 1px solid #dadfea;
+  padding: 15px;
+  font-size: 12px; }
+  .calendar .title {
+    font-size: 18px; }
+  .calendar .weekdays {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 20px;
+    font-weight: bold;
+    margin-bottom: 10px; }
+  .calendar .weekrow {
+    display: flex;
+    width: 100%;
+    justify-content: space-between; }
+    .calendar .weekrow span {
+      text-align: center;
+      width: 10px; }
+
+/*# sourceMappingURL=main.css.map */
